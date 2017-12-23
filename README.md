@@ -31,7 +31,7 @@ Fetch statistics about a specific token:
     puts "#{res.symbol}: #{res.price}"
     # => BTC: 15330.8
     puts "#{res.name}: #{res.market_cap}"
-    # Bitcoin: 256933859710.0
+    # => Bitcoin: 256933859710.0
     puts res.percent_change(period: '1h')
     # => -1.03
     puts res.percent_change(period: '24h')
